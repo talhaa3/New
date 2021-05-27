@@ -18,6 +18,7 @@ public class Customer extends db_Connection {
                 System.out.print("\n\t" + resultSet.getString("product_name") + " is available for: ");
                 System.out.print(resultSet.getInt(2) + "kr");
                 System.out.print(" (only " + resultSet.getInt(3) + " items are left)");
+                System.out.print("");
 
                 System.out.println("");
             }
